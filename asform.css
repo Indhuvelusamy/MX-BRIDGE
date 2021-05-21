@@ -1,0 +1,77 @@
+body{
+	background:url('account.png');
+	height:100%;
+	width:100%;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	font-family:Arial;
+	
+}
+.wrap
+{
+	max-width:400px;
+	border-radius:20px;
+	margin:auto;
+	background:rgba(0,0,0,0.8);
+	box-sizing:border-box;
+	padding:40px;
+	color:#fff;
+	margin-top;100px;
+	
+}
+.label
+{
+	color:gray;
+	padding:12px;
+	font-size:13px;
+	font-weight:bold;
+}
+
+h2{
+	text-align:center;
+}
+input[type=text],input[type=password],input[type=tel]
+{
+	width:100%;
+	box-sizing:border-box;
+	padding:12px 5px;
+	background:rgba(0,0,0,0.10);
+	outline:none;
+	border:none;
+	border-bottom:1px dotted #fff;
+	color:#fff;
+	border-radius:5px;
+	margin:5px;
+	font-weight:bold;
+}
+input[type=radio]
+{
+	padding:12px 5px;
+	outline:none;
+	border:none;
+	color:#fff;
+	
+	
+}
+input[type=submit]
+{
+	width:100%;
+	box-sizing:border-box;
+	padding:10px 0;
+	margin-top:30px;
+	outline:none;
+	border:none;
+	background:#808000;
+	opacity:0.7;
+	border-radius:20px;
+	font-size:20px;
+	color:#fff;
+}
+input[type=submit]:hover{
+	
+	background:#9ACD32;
+	opacity:0.7;
+	
+	
+}

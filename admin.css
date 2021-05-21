@@ -1,0 +1,317 @@
+* {
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+	background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	background-image:url("home.png");
+	background-repeat:no;
+	background-size:cover;
+	
+}
+.wrap
+{
+	max-width:1300px;
+	border-radius:20px;
+        margin-top:50px;
+        margin-left:50px;
+        margin:auto;
+	position:relative;
+	background:white;
+	box-sizing:2 px solid border-box;
+	padding:40px;
+	color:#9648cd;
+	
+}
+tr:hover {background-color: #ddd;}
+td {
+  text-align: center;
+}
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: gray;
+  color: white;
+}
+table
+{
+        position:center;
+
+}
+
+
+.wrap h2{
+    background-color: #fcfcfc;
+    color: gray;
+    font-size: 24px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px dotted #333;
+}
+.wrap h3,.input-box label{
+    background-color: #fcfcfc;
+    color: gray;
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+    
+}
+.label
+{
+	
+	color:gray;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.input-box h4{
+    padding-bottom: 5px;
+    color: gray;
+	letter-spacing:1px;
+	font-size:15px;
+}
+.input-group{
+    margin-bottom: 8px;
+    width: 100%;
+    position: left;
+    
+    
+    padding: 5px 0;
+}
+.input-box{
+    width: 100%;
+    margin-right: 12px;
+    position: relative;
+}
+.input-box:last-child{
+    margin-right: 0;
+}
+.name{
+    padding: 5px 5px 5px 5px;
+    width: 100%;
+    background-color: #fcfcfc;
+    border: 1px solid #00000033;
+    outline: none;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    border-radius: 3px;
+    color: #333;
+}
+.name:focus, .dob:focus{
+    -webkit-box-shadow:0 0 2px 1px #7ed32180;
+    -moz-box-shadow:0 0 2px 1px #7ed32180;
+    box-shadow: 0 0 2px 1px #7ed32180;
+    border: 1px solid #7ed321;
+}
+.input-box .icon{
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    color: #333;
+    background-color: #f1f1f1;
+    border-radius: 2px 0 0 2px;
+    transition: 0.3s;
+    font-size: 20px;
+    pointer-events: none;
+    border: 1px solid #00000033;
+    border-right: none;
+}
+
+.label1
+{
+	left:400px;
+	top:230px;
+	position:absolute;
+	
+	
+}
+.label2
+{
+	left:400px;
+	top:290px;
+	position:absolute;
+	
+	
+}
+.label3
+{
+	left:650px;
+	top:230px;
+	position:absolute;
+	
+	
+}
+.label4
+{
+	left:650px;
+	top:290px;
+	position:absolute;
+	
+	
+}
+.label11
+{
+	left:460px;
+	top:230px;
+	position:absolute;
+	
+	
+}
+.label22
+{
+	left:460px;
+	top:290px;
+	position:absolute;
+	
+	
+}
+.label33
+{
+	left:730px;
+	top:230px;
+	position:absolute;
+	
+	
+}
+.label44
+{
+	left:780px;
+	top:290px;
+	position:absolute;
+	
+	
+}
+.post-actions__publish {
+  width: 120px;
+left:1180px;
+top:330px;
+position:absolute;
+  background-color: #008391;
+  color: #fff;
+
+  border-radius: 1.5em;
+}
+.widget-post__textarea {
+  width: 20%;
+  height: 18%;
+  padding: .5em;
+	left:1000px;
+	top:200px;
+  border-color: gray;
+  
+  resize: none;
+  position:absolute;
+}
+.widget-post__textarea:focus {
+  outline: none;
+}
+
+
+.wrapper {
+	width: 1170px;
+	margin:auto;
+	
+	
+}
+h4{
+color:white;
+font-size:25px;
+font-family: poppins; 
+letter-spacing: 3px;
+}
+header {
+	height: 100px;
+	background: #262626;
+	
+	width: 100%;
+	z-index: 10;
+	position: relative;
+}
+
+nav{
+	width:100%;
+	height:60px;
+	
+	
+}
+nav ul{
+	float: right;
+	line-height: 70px;
+}
+nav ul li {
+	float:left;
+	list-style:none;
+	position:relative;
+	
+}
+nav ul li a{
+	
+	text-decoration:none;
+	font-family: poppins;
+	letter-spacing: 3px;
+	font-size: 20px;
+	margin: 0 10px;
+	color: black;
+	
+}
+nav ul li ul{
+	display:none;
+	position:absolute;
+	background-color:#262626;
+	padding:5px;
+	border-radius:0px 0px 4px 4px;
+}
+nav ul li:hover ul{
+	display:block;
+	padding:5px;
+	
+	
+}
+nav ul li ul li
+{
+	width:150px;
+	height:50px;
+	border-radius:4px;
+	
+	
+}
+
+nav ul li ul li a{
+	padding:8px 10px;
+
+}
+nav ul li ul li a:hover{
+	height:50px;
+	background-color:gray;
+	
+	
+}
+.nav-area li{
+	display:inline-block;	
+}
+.nav-area li a{
+	color:#fff;
+	text-decoration:none;
+	padding:5px 20px;
+	font-family:poppins;
+	font-size:18px;
+	
+}
+.nav-area li a:hover{
+	border-radius:4px 4px 4px 4px;
+	background:#fff;
+	color:#333;
+}

@@ -1,0 +1,43 @@
+.wrap
+{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	width:350px;
+	height:420px;
+	padding:80px 40px;
+	box-sizing:border-box;
+	border-radius:20px;
+	background:rgba(220,220,220);
+	
+}
+h2,h3,h1
+{
+	text-align:center;
+}
+input[type=submit]
+{
+	position:absolute;
+	top:50%;
+	left:28%;
+	width:50%;
+	
+	box-sizing:border-box;
+	padding:10px 0;
+	margin-top:30px;
+	outline:none;
+	border:none;
+	background:#00b3ca;
+	opacity:0.7;
+	border-radius:20px;
+	font-size:20px;
+	color:#fff;
+}
+input[type=submit]:hover{
+	
+	background:#00b3ca;
+	opacity:0.4;
+	
+	
+}
