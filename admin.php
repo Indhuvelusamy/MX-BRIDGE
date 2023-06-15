@@ -29,6 +29,8 @@ font-weight:bold;
 padding:12px 15px;
 
 }
+
+<!-- arun -->
 .content-table tbody tr{
 border-bottom:1px solid white;
 
