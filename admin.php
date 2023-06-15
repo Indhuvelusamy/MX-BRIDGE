@@ -7,6 +7,7 @@
 
 }
 
+
 .content-table{
 border-collapse:collapse;
 margin:30px 100px;
